@@ -26,7 +26,7 @@ function totalSales(shirtMeasure, pantMeasure, shoeMeasure) {
     const perShirtPrice = 100;
     const perPantPrice = 200;
     const perShoePrice = 500;
-    //  calculate
+    //  calculate all
     const shirtPriceMeasurement = shirtMeasure * perShirtPrice;
     const pantPriceMeasurement = pantMeasure * perPantPrice;
     const shoePriceMeasurement = shoeMeasure * perShoePrice;
@@ -88,6 +88,6 @@ function perfectFriend(friends) {
             return "Please enter a valid name!";}
     }
 }
-const friendsName =['Rahima', 'Karima','Romim','Sariful', 'Hridoy', 'Nirob'];
+const friendsName =['Rahima', 'Karima','Romim','sharif','Sariful', 'Hridoy', 'Nirob'];
 const friend = perfectFriend(friendsName);
 console.log(friend);
